@@ -3,7 +3,7 @@ const express = require("express");
 require("./db/db");
 
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3100;
 
 //Importing routes
 const users = require("./routes/users");
